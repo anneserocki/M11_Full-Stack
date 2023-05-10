@@ -17,9 +17,18 @@
 // console.log(`${Math.floor(decimalNumber)}`)
 
 //STEP 4
-let fiveNumber = parseInt(prompt('Please five numbers with comma delimiting each number: '))
-maxNumber = Math.max(fiveNumber)
-minNumber = Math.min(fiveNumber)
-console.log(`The maximum number is: ${maxNumber}; The minimum number is: ${minNumber}`)
+// let inputNumber = prompt('Please five numbers with comma delimiting each number: ')
+// // use split() method to get an array
+// let numbersAsString = inputNumber.split(',');
+// // use map() function to parseInt every element and get an number array, use trim() method to make sure no whitespace around every number
+// let numbers = numbersAsString.map(num => parseInt(num.trim()));
+// console.log(numbers);
+// // compare with numbers and get the largest, the smallest number.
+// maxNumber = Math.max(...numbers)
+// minNumber = Math.min(...numbers)
+// console.log(`The largest number is: ${maxNumber}; \nThe smallest number is: ${minNumber}`)
 
 //STEP 5
+let inputNumber = parseInt(prompt('Please input a number: '))
+squareRootNumber = Math.sqrt(inputNumber)
+console.log(`The square root number is: ${squareRootNumber} `)
